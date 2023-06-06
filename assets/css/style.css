@@ -57,15 +57,18 @@ a {
 }
 
 .hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: calc(100vh - 90px);
     background-color: #e6f0ff;
     position: relative;
 }
 
 .content {
-    width: 111rem;
+    width: 1110px;
     margin: 0 auto;
-    max-width: calc(100% - 4.8rem);
+    max-width: calc(100% - 48px);
 }
 
 .navbar {
@@ -107,9 +110,9 @@ a {
     border-radius: 0.8rem;
 }
 
-.hero {
+/* .hero {
     padding-top: 130px;
-}
+} */
 
 .hero .info {
     width: 51%;
